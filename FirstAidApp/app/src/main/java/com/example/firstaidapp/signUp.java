@@ -36,9 +36,6 @@ public class signUp extends AppCompatActivity {
 
         conf_pass = (TextView) findViewById(R.id.conf_pass);
 
-        as=(TextView) findViewById(R.id.as);
-        bs=(TextView) findViewById(R.id.bs);
-
         sign_upBtn = (Button) findViewById(R.id.conf_signup);
 
         conf_pass.setVisibility(View.GONE);
@@ -58,8 +55,6 @@ public class signUp extends AppCompatActivity {
         }
         else{
             conf_pass.setVisibility(View.VISIBLE);
-            as.setText(pass_first);
-            bs.setText(pass_conf);
         }
     }
 }
